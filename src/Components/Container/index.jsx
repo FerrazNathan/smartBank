@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import Extract from "../Extract/index"
 
 export const Container = styled.div`
   background-color: #f1f1f1;
@@ -25,6 +26,7 @@ export default() => {
       <Titulo>Hello World!</Titulo>
       <Content>
         <Conta />
+        <Extract />
       </Content>
     </Container>
   );
