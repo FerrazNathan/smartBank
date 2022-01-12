@@ -10,11 +10,13 @@ import {
 export const lightTheme = {
   body: lightBackground,
   inside: contentLight,
-  text: textLightBackgorund
+  text: textLightBackgorund,
+  filter: ''
 };
 
 export const darkTheme = {
   body: darkBackground,
   inside: contentDark,
-  text: textDarkBackground
+  text: textDarkBackground,
+  filter: 'invert(100%)'
 };
