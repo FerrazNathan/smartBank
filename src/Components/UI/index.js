@@ -5,6 +5,10 @@ export const Icon = styled.img`
   width: 25px;
 `
 
+export const IconTheme = styled(Icon)`
+  filter: ${({theme}) => theme.filter}
+`
+
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
@@ -42,4 +46,13 @@ export const Detail = styled.span`
 export const Balance = styled.div`
   font-weight: 700;
   font-size: 32px;
+`
+
+export const BtnTheme = styled.button`
+  position: absolute;
+  top: 4vh;
+  right: 20px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
 `
